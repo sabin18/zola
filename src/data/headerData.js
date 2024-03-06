@@ -98,7 +98,7 @@ const headerData = {
     {
       id: 2,
       icon: "icon-at",
-      content: "zola@gmail.com",
+      content: "Zolatraveltour@gmail.com",
       subHref: "mailto",
     },
   ],
