@@ -48,6 +48,7 @@
     "react-router-dom": "^6.17.0",
     "react-select": "^5.2.2",
     "react-visibility-sensor": "^5.1.1",
+    "sharp": "^0.33.2",
     "swiper": "^8.0.7",
     "tiny-slider-react": "^0.5.7"
   },
