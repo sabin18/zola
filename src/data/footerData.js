@@ -23,7 +23,7 @@ const footerData = {
     {
       id: 2,
       icon: "fas fa-envelope",
-      content: "zola@gmail.com",
+      content: "Zolatraveltour@gmail.com",
       subHref: "mailto",
     },
     {
