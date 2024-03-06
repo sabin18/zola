@@ -1,5 +1,5 @@
-import image2 from "@/images/blog/author-1-1.jpg";
-import image from "@/images/blog/news-details-img-1.jpg";
+import image2 from "@/images/resources/about-two-img.jpg";
+import image from "@/images/resources/about-two-img.jpg";
 
 const text1 =
   " Lorem ipsum available isn but the majority have suffered alteratin in some or form injected. Lorem Ipsum. Proin gravida nibh vel velit auctor aliqueenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum veliam nec tellus a odio tincidunt auctor.";
@@ -71,19 +71,19 @@ export const sidebar = {
   posts: [
     {
       id: 1,
-      image: "lp-1-1.jpg",
+      image: "comment-1-2.png",
       comments: 2,
       title: "Travel Most Beautiful Places in the World",
     },
     {
       id: 2,
-      image: "lp-1-2.jpg",
+      image: "comment-1-2.png",
       comments: 2,
       title: "Travel Most Beautiful Places in the World",
     },
     {
       id: 3,
-      image: "lp-1-3.jpg",
+      image: "comment-1-2.png",
       comments: 2,
       title: "Travel Most Beautiful Places in the World",
     },

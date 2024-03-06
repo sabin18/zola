@@ -21,7 +21,7 @@ const SingleTour = ({ tour = {}, userSelect = false }) => {
             }}
           />
           <div className="popular-tours__icon">
-            <Link  href={{ pathname: "/tour-details", query: { id:id } }}>
+            <Link  href={{ pathname: "/tour-details", query: { id:id } }} legacyBehavior>
               <a>
                 <i className="fa fa-heart"></i>
               </a>

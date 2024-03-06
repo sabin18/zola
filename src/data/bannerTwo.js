@@ -1,6 +1,6 @@
-import bg1 from "@/images/backgrounds/main-slider-2-1.jpg";
-import bg2 from "@/images/backgrounds/main-slider-2-2.jpg";
-import bg3 from "@/images/backgrounds/main-slider-2-3.jpg";
+import bg1 from "@/images/resources/about-two-img.jpg";
+import bg2 from "@/images/resources/about-two-img.jpg";
+import bg3 from "@/images/resources/about-two-img.jpg";
 
 const bannerTwo = {
   subTitle: "Traveling",
