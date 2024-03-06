@@ -38,7 +38,7 @@ const NewsDetailsLeft = () => {
       <div className="news-details__content">
         <ul className="list-unstyled news-one__meta">
           <li>
-            <Link href="/news-details">
+            <Link href="/news-details" legacyBehavior>
               <a>
                 <i className="far fa-user-circle"></i>
                 {author}

@@ -7,7 +7,7 @@ const text =
 const aboutTwo = {
   image1,
   image2,
-  videoId: "Get7rqXYrbQ",
+  videoId: "Get7rqXYrbQ", 
   tagline: "Get to know us",
   title: "We’re Travel Agency",
   rightTexts: ["Change your Place to get Fresh Air", text],
