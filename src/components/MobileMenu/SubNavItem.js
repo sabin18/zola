@@ -14,7 +14,7 @@ const SubNavItem = ({ subItem = {} }) => {
 
   return (
     <li>
-      <Link href={href}>
+      <Link href={href} legacyBehavior>
         <a className={expand && subItems?.length ? " expanded" : ""}>
           {name}
           {subItems?.length && (

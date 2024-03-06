@@ -3,6 +3,8 @@ import dynamic from "next/dynamic";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import SingleTour from "./SingleTour";
+// import TinySlider from "tiny-slider-react";
+import 'tiny-slider/dist/tiny-slider.css';
 
 const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
 
@@ -16,6 +18,7 @@ const settings = {
   autoHeight: true,
   controls: false,
   gutter: 0,
+  axis:"horizontal",
   autoplayButton: false,
   autoplayButtonOutput: false,
   responsive: {
@@ -40,7 +43,7 @@ const PopularTours = () => {
         </div>
         <Row>
           <Col xl={12}>
-            <div className="popular-tours__carousel">
+            <div className="popular-tours__carousel d-flex p-2">
               <TinySlider settings={settings}>
                 {popularTours.map((tour) => (
                   <SingleTour key={tour.id} tour={tour} />

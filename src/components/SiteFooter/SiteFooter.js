@@ -22,7 +22,7 @@ const SiteFooter = () => {
               <Col xl={4} lg={6} md={6} className="animated fadeInUp">
                 <div className="footer-widget__column footer-widget__about">
                   <div className="footer-widget__about-logo">
-                    <Link href="/">
+                    <Link href="/" legacyBehavior>
                       <a>
                         <Image src={logo.src} alt="" style={{width:"100%",height:"70px"}}/>
                       </a>

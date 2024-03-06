@@ -18,7 +18,7 @@ const ToursListRight = () => {
                   alt=""
                 />
                 <div className="tours-list__icon">
-                <Link  href={{ pathname: "/tour-details", query: { id:id } }}>
+                <Link  href={{ pathname: "/tour-details", query: { id:id } }} legacyBehavior>
                     <a>
                       <i className="fa fa-heart"></i>
                     </a>
