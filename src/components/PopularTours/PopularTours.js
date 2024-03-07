@@ -43,7 +43,7 @@ const PopularTours = () => {
         </div>
         <Row>
           <Col xl={12}>
-            <div className="popular-tours__carousel d-flex p-2">
+            <div className="popular-tours__carousel">
               <TinySlider settings={settings}>
                 {popularTours.map((tour) => (
                   <SingleTour key={tour.id} tour={tour} />
